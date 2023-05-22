@@ -29,7 +29,7 @@ On May 18, 2022, YouTube began rolling out a new feature that highlights the "mo
   <img src="http://i3.ytimg.com/vi/1WEAJ-DFkHE/hqdefault.jpg">
 </p>
 
-2. Le programme va passer la souris sur la barre de progression de la vidéo `ytp-progress-bar-container` pour afficher la "heatmap"
+2. The program will move the mouse over the progress bar of the video `ytp-progress-bar-container` to display the heatmap
 
 > SVG Image
 <p align="center">
@@ -49,11 +49,24 @@ On May 18, 2022, YouTube began rolling out a new feature that highlights the "mo
 </svg>
 ```
 
-3. A partir du code html du SVG, le programme extrait une liste de coordonnées (x,y) de points (environ 1000 points) de l'attribut `d` de la balise `<path>`
+3. From the SVG html code, the program extracts a list of coordinates (x,y) of points (about 1000 points) from the `d` attribute of the `<path>` tag
 ```python
 >> [(1.0,87.5), (2.0,41.9), (5.0,37.5),... , (1001.0,87.4), (1000.0,96.8), (1000.0,100.0)]
 ```
-4. Le programme convertit le svg en une liste de point
+<p align="center">
+<img src="https://github.com/Dorian25/ytb-most-replayed/assets/32178615/daae76b6-b93a-40ef-9a2b-00bd3e5fe5dc">
+</p>
+
+4. The program reverses the scale of the graph by applying a simple subtraction to the y-intercept of the points
+```python
+>> [(1.0,2.5), (2.0,48.1), (5.0,52.4),... , (1001.0,2.89999999943), (1000.0,0.0), (1000.0,0.0)]
+```
+<p align="center">
+<img src="https://github.com/Dorian25/ytb-most-replayed/assets/32178615/ec2019b2-19c3-4513-86af-a263f5c8d13d">
+</p>
+
+
+6. 
 
 
 
