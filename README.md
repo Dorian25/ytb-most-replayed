@@ -22,7 +22,7 @@ On May 18, 2022, YouTube began rolling out a new feature that highlights the "mo
 
 ## Example
 
-1. Choose a YouTube video
+1. Choose a YouTube video (Dating: >5-7 days / views: >100k views)
 > Date de publication : Jul 16, 2023
 > 
 > Nombre de vues : 748,709 views  
