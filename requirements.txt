@@ -1,0 +1,6 @@
+beautifulsoup4==4.12.2
+matplotlib==3.7.1
+moviepy==1.0.3
+numpy==1.24.3
+selenium==4.12.0
+yt_dlp==2023.9.24
