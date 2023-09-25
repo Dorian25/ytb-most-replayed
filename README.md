@@ -10,9 +10,9 @@ On May 18, 2022, YouTube began rolling out a new feature that highlights the "mo
 ## Features
 
 - **Conversion SVG to graph** :framed_picture: :arrow_right: :chart_with_upwards_trend:
-> explaination
+> Simply extract the heatmap of the video progress bar SVG Path into numerical points coordinates (x,y)
 - :mountain: **Detection peaks**
-> explaination
+> 
 - :gear: **Parameters**
 > threshold
 > 
