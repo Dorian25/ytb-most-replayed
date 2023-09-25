@@ -14,11 +14,11 @@ On May 18, 2022, YouTube began rolling out a new feature that highlights the "mo
 - :mountain: **Detection peaks**
 > 
 - :gear: **Parameters**
-> threshold
+> threshold y (default: 80)
 > 
-> resolution
+> vidéo resolution (default: 360p)
 > 
-> duration extraction
+> clip duration (default: 10 seconds
 
 ## Example
 
