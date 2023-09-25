@@ -67,7 +67,7 @@ On May 18, 2022, YouTube began rolling out a new feature that highlights the "mo
 
 6. To extract the "most replayed" moments, simply convert the coordinates into a time scale based on the total duration of the video. Then use the [moviepy](https://github.com/Zulko/moviepy) library to slice the entire video into portions of the desired length (by default 10 seconds).
 
-Peak 1 at 13:15
+> Peak 1 at 13:15
 
 https://github.com/Dorian25/ytb-most-replayed/assets/32178615/521d12b7-4f61-4914-8e3d-14f42710b691
 
@@ -80,11 +80,8 @@ Peak 3 at 31:14
 https://github.com/Dorian25/ytb-most-replayed/assets/32178615/b0f8e7b8-a5e2-4b69-951b-66302107fd32
 
 
+## Sources
+- https://developer.mozilla.org/en-US/docs/Glossary/Bezier_curve
+- https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/d
+- https://en.wikipedia.org/wiki/B%C3%A9zier_curve
 
-
-
-
-
-
-
-## How to run
